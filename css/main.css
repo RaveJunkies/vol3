@@ -1,0 +1,252 @@
+@font-face {
+   font-family: aldotheapache;
+   src: url('../fonts/AldotheApache.ttf') format("truetype");
+}
+
+body{
+  background-color: #2e85c7;
+
+  background: conic-gradient(lime 40%, yellow 0 70%, red 0);
+
+
+  /*
+  background: repeating-linear-gradient(
+  			45deg,
+  			#52a2da,
+  			#52a2da 40px,
+  			#2e85c7 40px,
+  			#2e85c7 90px
+  		);
+  */
+  background-attachment: fixed;
+
+	color: #FFF;
+/*
+  background: url(../img/RJ02_Flyer_background_2.png) no-repeat  center scroll;
+	-moz-background-size: cover;
+	background-size: cover;
+  -o-background-size: cover;
+	width: 100vw;
+	height: auto;
+	min-height: 100vh;
+	background-attachment: fixed;
+*/
+  text-shadow: 0 0 10px #000;
+}
+
+h1{
+	font-size: 5vw;
+  text-shadow: 0 0 24px #000;
+
+	/*font-family: aldotheapache;*/
+}
+
+@media screen and (max-width:992px){
+  h1{
+    font-size: 10vw;
+  }
+}
+
+
+@media screen and (max-width:544px){
+  h1{
+    font-size: 12vw;
+  }
+}
+
+h2{
+/*	font-family: aldotheapache;*/
+}
+
+#eyecatch {
+	display: table;
+	position: relative;
+	background: url(../img/ec1.jpg) no-repeat  center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	width: 100vw;
+	height: auto;
+	min-height: 100vh;
+}
+
+#eyecatch::before {
+	/* 透過した黒を重ねる */
+	background-color: rgba(0, 0, 0, 0.5);
+	/* どの範囲に重ねるかを指定 */
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	content: ' ';
+}
+
+.box {
+	width: 100%;
+	display: table-cell;
+	position: relative;
+	text-align: center;
+	vertical-align: middle;
+}
+.box h1{
+	color: #FFF;
+	font-size: 5vw;
+}
+@media screen and (max-width:420px){
+  .box h1{
+    font-size: 12vw;
+  }
+}
+
+#info{
+	margin-top: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-size: 24px;
+}
+@media screen and (max-width:800px){
+  #info h3{
+    font-size: 18px;
+  }
+}
+@media screen and (max-width:420px){
+  #info h3{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width:330px){
+  #info h3{
+    font-size: 18px;
+  }
+}
+
+#lineup {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+
+#merchandise{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+#access{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+#kandi{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+#kandi h3{
+	text-align: left;
+	font-size:20px;
+}
+@media screen and (max-width:800px){
+  #kandi h3{
+    font-size: 18px;
+  }
+}
+@media screen and (max-width:420px){
+  #kandi h3{
+    font-size: 12px;
+  }
+}
+@media screen and (max-width:330px){
+  #kandi h3{
+    font-size: 12px;
+  }
+}
+
+#warmup{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+#access p{
+	font-size:24px;
+	text-align: left;
+}
+@media screen and (max-width:800px){
+  #access p{
+    font-size: 18px;
+  }
+}
+@media screen and (max-width:420px){
+  #access p{
+    font-size: 18px;
+  }
+}
+@media screen and (max-width:330px){
+  #access p{
+    font-size: 15px;
+  }
+}
+.right-col{
+	float:right;
+}
+
+.row-eq-height {
+display: flex;
+flex-wrap: wrap;
+}
+.centered-img {
+display: flex;
+justify-content: center;
+align-items: center;
+overflow: hidden;
+}
+
+.centered-img img {
+height: auto;
+width: 100%;
+}
+
+.centerd-txt{
+	display: flex;
+	align-items: center;
+}
+@media screen and (max-width:420px){
+	.centerd-txt{
+		display: block;
+	}
+}
+
+
+.logo-padding{
+	padding-top: 30px;
+}
+.mini-padding{
+	padding-top:10px;
+}
+
+#footer{
+	background-color: #0070FF;
+	text-align: center;
+	padding-top: 10px;
+
+}
+
+.footer-margin{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+@media screen and (max-width:420px){
+.m-padding{
+	padding-top: 35px;
+}
+}
+
+.padding-20{
+	padding-top: 20px;
+}
