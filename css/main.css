@@ -4,7 +4,7 @@
 }
 
 body{
-  background-color: #2e85c7;
+  background-color: #FFDE01;
 
   background: conic-gradient(lime 40%, yellow 0 70%, red 0);
 
@@ -230,7 +230,7 @@ width: 100%;
 }
 
 #footer{
-	background-color: #0070FF;
+	background-color: #EACB00;
 	text-align: center;
 	padding-top: 10px;
 
