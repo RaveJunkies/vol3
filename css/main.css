@@ -20,7 +20,7 @@ body{
   */
   background-attachment: fixed;
 
-	color: #FFF;
+	color: #0E0E0E;
 /*
   background: url(../img/RJ02_Flyer_background_2.png) no-repeat  center scroll;
 	-moz-background-size: cover;
@@ -31,12 +31,14 @@ body{
 	min-height: 100vh;
 	background-attachment: fixed;
 */
-  text-shadow: 0 0 10px #000;
+  /*text-shadow: 0 0 10px #63AFD5;*/
 }
 
 h1{
 	font-size: 5vw;
-  text-shadow: 0 0 24px #000;
+  font-family: 'Righteous', cursive;
+
+  /*text-shadow: 0 0 24px #63AFD5;*/
 
 	/*font-family: aldotheapache;*/
 }
@@ -236,6 +238,7 @@ width: 100%;
 
 }
 
+
 .footer-margin{
 	margin-left: 0px;
 	margin-right: 0px;
@@ -254,5 +257,7 @@ width: 100%;
 .drop-shadow {
       margin-top: 30px;
       margin-bottom: 20px;
-      -webkit-filter: drop-shadow(0 0 10px #000);
+      -webkit-filter: drop-shadow(0 0 10px #333);
 }
+
+.
